@@ -2,6 +2,9 @@ body {
   margin: 0;
   font-family: "script";
 }
+a {
+  text-decoration: none;
+}
 
 
 
@@ -18,16 +21,34 @@ line-height: 60px;
 }
 .mid-section{
   background-image: url(image.jpg);
-  padding-top: 500px;
-  padding-bottom: 500px;
+  padding-top: 300px;
+  padding-bottom: 400px;
   background-size: cover;
+
 }
 .mid-text h1{
   color:white;
   font-size: 50px;
-  opacity: 0.8;
+  opacity: 0.9;
 text-align: center;
+margin: 0 auto;
+}
+.mid-button{
+width:110px;
+  background-color: none;
+  margin: 0 auto;
+  text-align:
 
+}
+.mid-button a{
+  color:black;
+  text-align: center;
+  display: block;
+  border: 1px solid black;
+  padding :10px 2px 10px 2px ;
+  background-color: green;
+  border-radius: 5px;
+  margin-top:20px;
 }
 .button-order {
   float: right;
