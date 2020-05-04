@@ -1,7 +1,6 @@
-body {
-  margin: 0;
-  font-family: "script";
-}
+h1 { font-family: 'Pacifico'; }
+
+
 a {
   text-decoration: none;
 }
@@ -25,6 +24,7 @@ line-height: 60px;
   padding-bottom: 400px;
   background-size: cover;
 
+z-index: 10;
 }
 .mid-text h1{
   color:white;
@@ -37,16 +37,16 @@ margin: 0 auto;
 width:110px;
   background-color: none;
   margin: 0 auto;
-  text-align:
+
 
 }
 .mid-button a{
-  color:black;
+  color:white;
   text-align: center;
   display: block;
   border: 1px solid black;
   padding :10px 2px 10px 2px ;
-  background-color: green;
+  background-color: black;
   border-radius: 5px;
   margin-top:20px;
 }
@@ -57,8 +57,9 @@ width:110px;
   display: inline-block;
   margin-top: 20px;
   margin-right: 100px;
-  border-radius: 20px;
+  border-radius: 30px;
   opacity:0.7;
+
 }
 
 .button-order:hover {
@@ -70,4 +71,19 @@ width:110px;
   padding: 0 25px;
   color: white;
   display: block;
+}
+
+.view-menu{
+  color:white;
+  border: 1px solid black;
+  margin-left: 695px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+
+}
+.bottom{
+  width: auto;
+  height: 100px;
+  background-color: white;
 }
