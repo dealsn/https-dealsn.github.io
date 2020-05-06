@@ -77,7 +77,11 @@ margin-top:20px;
  color: white;
 
 }
-.btn-wrapper a{
-  display:block;
-  color: black;
+.click{
+  padding :10px 15px 10px 15px ;
+  border-radius: 5px;
+    display:block;
+  margin-top:20px;
+color: black;
+  width:130px;
 }
