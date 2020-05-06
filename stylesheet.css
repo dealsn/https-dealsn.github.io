@@ -4,7 +4,9 @@ h1 { font-family: 'Pacifico'; }
 a {
   text-decoration: none;
 }
-
+li{
+list-style: none;
+}
 
 
 .logo{
@@ -12,7 +14,7 @@ a {
   margin-right: 20px;
 }
 .top-list li{
-  list-style: none;
+
   float: left;
   margin-right: 20px;
 color: white;
@@ -84,4 +86,19 @@ margin-top:20px;
   margin-top:20px;
 color: black;
   width:130px;
+}
+footer{
+  height:200px;
+  background-color: #778899;
+}
+.btn-wrapper {
+  float: left;
+
+}
+.contact ul{
+  float:right;
+  padding-right: 50px;
+}
+.contact li{
+  font-size: 20px;
 }
